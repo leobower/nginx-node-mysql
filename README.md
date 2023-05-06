@@ -24,6 +24,6 @@ docker-compose up -d --build
 <br/>
 ### Chamando o NGINX pelo browser
 <br/>
-[localhost:8080/](http://localhost:8080/)
+[http://localhost:8080/](http://localhost:8080/)
 
 
