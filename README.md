@@ -17,7 +17,7 @@ __O retorno da aplicação node.js para o nginx deverá ser:__
   
 :zap: ### Subindo nginx, node e mysql no dokcer local :zap:
 ```
-git clone https://github.com/leobower/desafio-nginx-node-mysql.git
+git clone https://github.com/leobower/nginx-node-mysql.git
 
 cd desafio-nginx-node-mysql
 
