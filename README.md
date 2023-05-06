@@ -19,14 +19,10 @@ __O retorno da aplicação node.js para o nginx deverá ser:__
 ```
 git clone https://github.com/leobower/nginx-node-mysql.git
 
-cd desafio-nginx-node-mysql
-
 docker-compose up -d --build
 ```
 <br/>
-:zap: ### Chamando o NGINX pelo browser :zap:
-```
+### Chamando o NGINX pelo browser
 [http://localhost:8080/](http://localhost:8080/)
 
-```
 
