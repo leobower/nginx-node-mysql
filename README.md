@@ -22,8 +22,6 @@ git clone https://github.com/leobower/nginx-node-mysql.git
 docker-compose up -d --build
 ```
 <br/>
-### Chamando o NGINX pelo browser
-<br/>
-[http://localhost:8080/](http://localhost:8080/)
+### Para acessar, digite o seguinte endereço no navegador:
 
----
+[http://localhost:8080/](http://localhost:8080/)
