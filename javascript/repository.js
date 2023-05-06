@@ -5,6 +5,9 @@ const { config } = require('./config');
 async function query(sql) {
   const conn = mysql.createConnection(config);
   
+  const createTable = `create table if not exists people (id int not null AUTO_INCREMENT, name varchar(255), PRIMARY KEY (id))`;
+  conn.query(createTable);
+
   for(let i =0; i < 10; i++) {
     const name = faker.name.findName()
     const insertCommand = `INSERT INTO people (name) VALUES ('${name.replace(/'/g, '')}')`;
